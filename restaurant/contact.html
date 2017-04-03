@@ -1,0 +1,76 @@
+<!-- Doctype HTML -->
+<html>
+	<head>
+		<title>Paul's Pasta Palace</title>
+	</head>
+	<body>
+		<div id="banner" align="center">		
+			<h1>Paul's Pasta Palace</h1>
+			<hr/>
+		</div>
+		<div id="links">
+			<table border="0" cellpadding="10">
+				<tr>
+					<td><a href="home.html">Home</a></td>					
+					<td><a href="menu.html">Menu</a></td>					
+					<td><a href="contact.html">Contact Us</td>
+				</tr>
+			</table>
+			<hr/>
+		</div>
+		<div id="info" align="center">
+			<form action="contactResponse.html" method="POST">
+			<table border="0">
+				<tr>					
+					<td align="right">Name:</td>
+					<td><input type="text" name="name"/></td>					
+				</tr>
+				<tr>
+					<td align="right">Email:</td>
+					<td><input type="text" name="email"/></td>					
+				</tr>
+				<tr>
+					<td align="right">Phone:</td>
+					<td><input type="text" name="phone"/></td>
+				</tr>
+				<tr>
+					<td align="right">Reason:</td>
+					<td><select name="reason">
+							<option value="catering">Catering</option>
+							<option value="Private Party">Private Party</option>
+							<option value="Feedback">Feedback</option>
+							<option value="Other">Other</option>
+							</select></td>
+				</tr>
+				<tr>
+					<td align="right">Have you be to our restaurant?</td>
+					<td><input type="radio" name="previouslyVisited" value="no" checked/>No<input type="radio" name="previouslyVisited" value="yes"/>Yes</td>
+				</tr>				
+				<tr>
+					<td align="right">Best days to contact you:</td>					
+					<td><input type="checkbox" name="daysToContact" value="M">M<input type="checkbox" name="daysToContact" value="T">T
+						<input type="checkbox" name="daysToContact" value="W">W<input type="checkbox" name="daysToContact" value="Th">Th
+						<input type="checkbox" name="daysToContact" value="F">F</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Send Request"/></td>
+					<td width="135"></td>
+				</tr>
+			</table>
+		</form>
+		</div>
+		<div id="footer" align="center">
+			<hr/>
+			<p>
+				<h3>12 Cherokee Drive, Epping NH, 03024</h3>
+			</p>
+			<p>
+				<h4>603-555-6437</h4>
+			</p>
+		</div>
+	</body>
+</html>
+			
+			
+			
