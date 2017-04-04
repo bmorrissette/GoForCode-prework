@@ -6,22 +6,25 @@
 		<link href="restaurantStyle.css"
 			rel="stylesheet"
 			type="text/css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		<style>
 			#info{
 				text-align: center;
-				background-color: #fcea76;
-				margin: 0;
-				font-family: 'Helvetica';
+				background-color: #f79711;
+				padding: 5pt;
+				font-family: 'Helvetica'				;
 			}
 			#items{
 				text-align: center;
 				border-spacing: 20pt;
-				margin: auto
+				margin: auto;
+				color: white;
 			}
 			#beverages{
 				text-align: left;
 				border-spacing: 20pt;
-				margin: auto
+				margin: auto;
+				color:white;
 			}
 			thead{
 				font-weight: bold;
@@ -31,105 +34,106 @@
 		</style>
 	</head>
 	<body>
-		<div id="banner">		
-			<h1>Paul's Pasta Palace</h1>
-			<hr/>
-		</div>
-		<div id="links">
-			<table id="linkTable">
-				<tr>
-					<td><a href="home.html">Home</a></td>					
-					<td><a href="menu.html">Menu</a></td>					
-					<td><a href="contact.html">Contact Us</td>
-				</tr>
-			</table>
-			<hr/>
-		</div>
-		<div id="info">
-			<table id="items">
-				<tr>
-					<td><h2>Burger and Fries</h2></td>
-					<td><h2>Hot Dog and Chips</h2></td>
-					<td><h2>Italian Sausage and Peppers</h2></td>
-				</tr>
-				<tr>
-					<td>An American Classic!<br/>
-						Your choice - with or without cheese<br/>
-						Pickle, onion, tomato and lettuce<br/>
-						Served with our famous thick cut</br>
-						french fries</br>
-						$7.95</td>
-					<td>A Summer Classic!</br>
-						Your choice - white or wheat bun</br>
-						Relish, mustard, and ketchup</br>
-						Served with our house-made chips</br>
-						$7.95</td>
-					<td>An All-Time Favorite!!</br>
-						Your choice - mild or spicy</br>
-						Cole Slaw</br>
-						Served with garlic mashers</br>
-						$10.95</td>
-				</tr>
-				<tr>
-					<td><h2>Tenderloin Sandwich and Chips</h2></td>
-					<td><h2>House Salad</h2></td>
-					<td><h2>Brisket Sandiwch and Fries</h2></td>			
-				</tr>
-				<tr>
-					<td>Really Hits the Spot!</br>
-						Plain or Sesame Seed Bun</br>
-						Pickle, onion, tomato and lettuce</br>
-						Served with our house made chips</br>
-						$8.95</td>
-					<td>On the Ligher Side</br>
-						Your choice - with or without cheese</br>
-						Iceburg lettuce, tomatoes, peppers</br>
-						Thousand Island or Ranch Dressing</br>
-						Served with a dinner roll</br>
-						$6.95</td>
-					<td>A Taste of Texas!</br>
-						Smoked Brisket on thick-cut Texas</br>
-						Toast</br>
-						Cole Slow</br>
-						Served with our famous thick-cut</br>
-						french fries</br>
-						$7.95</td>
-				</tr>
-			</table>			
-			<table id="beverages">
-				<thead>
-					<tr>
-						<td colspan="2">Beverages</td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Root Beer</td>
-						<td>$3.00</td>
-					</tr>
-					<tr>
-						<td>Bottled Water</td>
-						<td>$1.25</td>
-					</tr>
-					<tr>
-						<td>Lemonade</td>
-						<td>$1.00</td>
-					</tr>
-					<tr>
-						<td>Iced Tea</td>
-						<td>$1.25</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div id="footer">
-			<hr/>
-			<p>
-				<h3>12 Cherokee Drive, Epping NH, 03024</h3>
-			</p>
-			<p>
-				<h4>603-555-6437</h4>
-			</p>
+		<div class="container-fluid">			
+			<div id="banner" class="img-rounded">		
+				Paul's Pasta Palace			
+			</div>			
+			<div class="links col-lg-12">				
+					<ul class="nav nav-pills">
+						<li role="presentation"><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>					
+						<li role="presentation" class="active"><a href="menu.html">Menu</a></li>					
+						<li role="presentation"><a href="contact.html">Contact Us</a></li>
+					</ul>				
+			</div>
+			<div class="col-lg-12">		
+				<div id="info" class="img-rounded col-lg-12">
+					<table id="items">
+						<tr>
+							<td><h2>Burger and Fries</h2></td>
+							<td><h2>Hot Dog and Chips</h2></td>
+							<td><h2>Italian Sausage and Peppers</h2></td>
+						</tr>
+						<tr>
+							<td>An American Classic!<br/>
+								Your choice - with or without cheese<br/>
+								Pickle, onion, tomato and lettuce<br/>
+								Served with our famous thick cut</br>
+								french fries</br>
+								$7.95</td>
+							<td>A Summer Classic!</br>
+								Your choice - white or wheat bun</br>
+								Relish, mustard, and ketchup</br>
+								Served with our house-made chips</br>
+								$7.95</td>
+							<td>An All-Time Favorite!!</br>
+								Your choice - mild or spicy	Cole Slaw</br>
+								Served with garlic mashers</br>
+								$10.95</td>
+						</tr>
+						<tr>
+							<td><h2>Tenderloin Sandwich and Chips</h2></td>
+							<td><h2>House Salad</h2></td>
+							<td><h2>Brisket Sandiwch and Fries</h2></td>			
+						</tr>
+						<tr>
+							<td>Really Hits the Spot!</br>
+								Plain or Sesame Seed Bun</br>
+								Pickle, onion, tomato and lettuce</br>
+								Served with our house made chips</br>
+								$8.95</td>
+							<td>On the Ligher Side</br>
+								Your choice - with or without cheese</br>
+								Iceburg lettuce, tomatoes, peppers</br>
+								Thousand Island or Ranch Dressing</br>
+								Served with a dinner roll</br>
+								$6.95</td>
+							<td>A Taste of Texas!</br>
+								Smoked Brisket on thick-cut Texas Toast</br>
+								Cole Slow</br>
+								Served with our famous thick-cut</br>
+								french fries</br>
+								$7.95</td>
+						</tr>
+					</table>
+					<br/>					
+					<div class="col-lg-12">										
+						<table id="beverages">
+							<thead>
+								<tr>
+									<td colspan="2">Beverages</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Root Beer</td>
+									<td>$3.00</td>
+								</tr>
+								<tr>
+									<td>Bottled Water</td>
+									<td>$1.25</td>
+								</tr>
+								<tr>
+									<td>Lemonade</td>
+									<td>$1.00</td>
+								</tr>
+								<tr>
+									<td>Iced Tea</td>
+									<td>$1.25</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>			
+			</div>
+			<div id="footer" class="col-lg-12">
+				<hr/>
+				<p>
+					<h3>12 Cherokee Drive, Epping NH, 03024</h3>
+				</p>
+				<p>
+					<h4>603-555-6437</h4>
+				</p>
+			</div>
 		</div>
 	</body>
 </html>

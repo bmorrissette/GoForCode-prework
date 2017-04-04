@@ -5,6 +5,8 @@
 		<link href="restaurantStyle.css"
 			rel="stylesheet"
 			type="text/css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<style>
 			#description{
 				width: 400;	
@@ -17,43 +19,48 @@
 		</style>
 	</head>
 	<body>
-		<div id="banner">		
-			<h1>Paul's Pasta Palace</h1>
-			<hr/>
-		</div>
-		<div id="links">
-			<table id="linkTable">
-				<tr>
-					<td><a href="home.html">Home</a></td>					
-					<td><a href="menu.html">Menu</a></td>					
-					<td><a href="contact.html">Contact Us</td>
-				</tr>
-			</table>
-			<hr/>
-		</div>
-		<div id="info" align="center">
-			<p>
-				<img src="pasta.jpg" style="width:400; border: 1px solid red; padding 1px;"/>
-			</p>
-			<p>
-				<table id="description">
-					<tr>
-						<td><b>About Us</b><br/>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue tortor sed molestie gravida. Nunc at eros et nunc fermentum bibendum. 
-						Duis egestas sapien justo, non tempus augue bibendum ut. Integer accumsan nibh ac urna semper, vel congue est aliquet. Vestibulum rhoncus mollis egestas. 
-						Sed vel diam sapien. Integer luctus cursus odio.</td>
-					</tr>
-				</table>
-			</p>
-		</div>
-		<div id="footer">
-			<hr/>
-			<p>
-				<h3>12 Cherokee Drive, Epping NH, 03024</h3>
-			</p>
-			<p>
-				<h4>603-555-6437</h4>
-			</p>
+		<div class="container-fluid">
+			<div id="banner" class="img-rounded">		
+				Paul's Pasta Palace			
+			</div>			
+			<div class="links col-lg-12">				
+					<ul class="nav nav-pills">
+						<li role="presentation" class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>					
+						<li role="presentation"><a href="menu.html">Menu</a></li>					
+						<li role="presentation"><a href="contact.html">Contact Us</a></li>
+					</ul>				
+			</div>			
+			<div class="jumbotron col-lg-12" id="ticker" >
+				Visit our new location opening in Portsmouth this summer!
+			</div>			
+			<div id="info" align="center" class="col-xs-12">
+				<div class="col-lg-12">			
+					<p>
+						<img src="pasta.jpg" style="width:400; border: 1px solid red; padding 1px;"/>
+					</p>
+					<p>
+						<table id="description">
+							<tr>
+								<td><b>About Us</b><br/>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue tortor sed molestie gravida. 
+								Nunc at eros et nunc fermentum bibendum. 
+								Duis egestas sapien justo, non tempus augue bibendum ut. Integer accumsan nibh ac urna semper, 
+								vel congue est aliquet. Vestibulum rhoncus mollis egestas. 
+								Sed vel diam sapien. Integer luctus cursus odio.</td>
+							</tr>
+						</table>
+					</p>
+				</div>				
+			</div>			
+			<div id="footer" class="col-lg-12">
+				<hr/>
+				<p>
+					<h3>12 Cherokee Drive, Epping NH, 03024</h3>
+				</p>
+				<p>
+					<h4>603-555-6437</h4>
+				</p>
+			</div>
 		</div>
 	</body>
 </html>
