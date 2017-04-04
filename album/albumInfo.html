@@ -3,10 +3,11 @@
 	<head>
 		<link href="albumStyle.css"
 			rel="stylesheet"
-			type="text/css" />	
-		<style>
-		li {
-			/*display: inline-block;*/
+			type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/bootstrap.js"></script>	
+		<style>		
+		li {			
 			list-style: circle;
 			background: #f4f7fc;
 			margin-right: 40pt;
@@ -33,126 +34,128 @@
 		a:hover{
 			text-decoration: underline;
 			background: #70a9bc;
-		}
-			
+		}			
 		</style>
 		<title>Act V: Hymns with the Devil in Confessional</title>
 	</head>
 	<body style= "background-color: #f4f7fc;">
-	<div id="albumInfo" class="art">
-		<center>
-			<div id="cover">			
+		<div class="container-fluid">
+			<div id="albumInfo" class="art">
+				<center>
+					<div id="cover" class="img-circle">						
+					</div>
+					<p>
+						<h2>Act V: Hymns with the Devil in Confessional</h2><br>
+						<a href="http://thedearhunter.com">The Dear Hunter</a><br>					September 9, 2016
+					</p>
+					<hr>					
+				</center>
 			</div>
-			<p>
-				<h2>Act V: Hymns with the Devil in Confessional</h2><br>
-				<a href="http://thedearhunter.com">The Dear Hunter</a><br>					September 9, 2016
-			</p>
-			<hr>					
-		</center>
-	</div>
-	<div id="members" style= "font-family: 'Helvetica', 'Arial'; font-size: 10pt; text-align: center;">
-		<center>
-			<h3>Band Members and Producers</h3>	
-		</center>
-		<table align="center">
-			<tr>
-				<td>
-					<ul>
-						<li>Casey Crescenzo - Vocals, Guitar, Piano</li>
-						<li>Nick Crescenzo - Drums, Back up Vocals</li>
-						<li>Maxwell Tousseau - Guitar, Back up Vocals</li>
-						<li>Nick Sollecito - Guitar, Piano, Back up Vocals</li>
-						<li>Robert Parr - Bass, Back up Vocals</li>
-						<li>Gavin Castleton - Guitar, Piano, Back up Vocals</li>
-						<li>Produced by Casey Crescenzo</li>
-					</ul>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div class="tables">			
-		<table border="1" width="100%" id="trackListing" align="center">
-			<caption>Tracks</caption>
-			<tr style = "background: #70a9bc; color: #f4f7fc;" >
-				<th>Track #</th>
-				<th>Track Title</th>
-				<th>Track Length</th>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>Regress</td>
-				<td>1:22</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>The Moon/Awake</td>
-				<td>6:09</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>Cascade</td>
-				<td>5:11</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>The Most Cursed Of Hands/Who Am I</td>
-				<td>6:42</td>
-			</tr>
-			<tr>
-				<td>5</td>
-				<td>The Revival</td>
-				<td>5:00</td>
-			</tr>
-			<tr>
-				<td>6</td>
-				<td>Melpomene</td>
-				<td>4:14</td>
-			<tr>
-				<td>7</td>
-				<td>Mr. Usher (On His Way to Town)</td>
-				<td>4:59</td>
-			</tr>
-			<tr>
-				<td>8</td>
-				<td>The Haves Have Naught</td>
-				<td>4:12</td>
-			</tr>
-			<tr>
-				<td>9</td>
-				<td>Light</td>
-				<td>4:02</td>
-			</tr>
-			<tr>
-				<td>10</td>
-				<td>Gloria</td>
-				<td>5:16</td>
-			</tr>
-			<tr>
-				<td>11</td>
-				<td>The Flame(Is Gone)</td>
-				<td>5:40</td>
-			</tr>
-			<tr>
-				<td>12</td>
-				<td>The Fire(Remains)</td>
-				<td>5:26</td>
-			</tr>
-			<tr>
-				<td>13</td>
-				<td>The March</td>
-				<td>4:12</td>
-			</tr>
-			<tr>
-				<td>14</td>
-				<td>Blood</td>
-				<td>4:33</td>
-			</tr>
-			<tr>
-				<td>15</td>
-				<td>A Beginning</td>
-				<td>6:19</td>
-			</tr>			
-		</table>		
+			<div id="members" style= "font-family: 'Helvetica', 'Arial'; font-size: 10pt; text-align: center;">
+				<center>
+					<h3>Band Members and Producers</h3>	
+				</center>
+				<table align="center" class="table-responsive">
+					<tr>
+						<td>
+							<ul>
+								<li>Casey Crescenzo - Vocals, Guitar, Piano</li>
+								<li>Nick Crescenzo - Drums, Back up Vocals</li>
+								<li>Maxwell Tousseau - Guitar, Back up Vocals</li>
+								<li>Nick Sollecito - Guitar, Piano, Back up Vocals</li>
+								<li>Robert Parr - Bass, Back up Vocals</li>
+								<li>Gavin Castleton - Guitar, Piano, Back up Vocals</li>
+								<li>Produced by Casey Crescenzo</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="tables">			
+				<table border="1" width="100%" id="trackListing" align="center" class="table-responsive table-striped table-hover" >
+					<caption>Tracks</caption>
+					<tr style = "background: #70a9bc; color: #f4f7fc;" >
+						<th>Track #</th>
+						<th>Track Title</th>
+						<th>Track Length</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Regress</td>
+						<td>1:22</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>The Moon/Awake</td>
+						<td>6:09</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Cascade</td>
+						<td>5:11</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>The Most Cursed Of Hands/Who Am I</td>
+						<td>6:42</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>The Revival</td>
+						<td>5:00</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Melpomene</td>
+						<td>4:14</td>
+					<tr>
+						<td>7</td>
+						<td>Mr. Usher (On His Way to Town)</td>
+						<td>4:59</td>
+					</tr>
+					<tr> 
+						<td>8</td>
+						<td>The Haves Have Naught</td>
+						<td>4:12</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Light</td>
+						<td>4:02</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Gloria</td>
+						<td>5:16</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>The Flame(Is Gone)</td>
+						<td>5:40</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>The Fire(Remains)</td>
+						<td>5:26</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>The March</td>
+						<td>4:12</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Blood</td>
+						<td>4:33</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>A Beginning</td>
+						<td>6:19</td>
+					</tr>			
+				</table>
+			</div>
+		</div>			
 	</body>
 </html>
 		
