@@ -1,0 +1,21 @@
+#trackListing{
+	background: #f4f7fc;
+	border-collapse: collapse;
+	border-color: #2b2e35;
+	width: 50%;
+	font-family: 'Helvetica', 'Arial';
+	font-size: 10pt;	
+}
+.tables{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	background: #2b2e35;	
+}
+caption{
+	color: white;
+	font-family: 'Helvetica', 'Arial';
+	font-size: 12pt;
+font-weight: bold;	
+}
+

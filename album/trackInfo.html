@@ -1,35 +1,65 @@
 <!-- Doctype HTML -->
 <html>
 	<head>
-	<title>More Info</title>
+		<link href="albumStyle.css"
+			rel="stylesheet"
+			type="text/css" />	
+		<style>
+		li {
+			/*display: inline-block;*/
+			list-style: circle;
+			background: #f4f7fc;
+			margin-right: 40pt;	
+			}
+		.art {
+			background: #2b2e35;
+			font-family: 'Helvetica', 'Arial';
+			font-size: 10pt;
+			color: #f4f7fc;
+			width: 90%;	
+			margin: 0 auto;
+			}
+		a {
+			color: white;
+			}				
+		</style>
+		<title>Act V: Hymns with the Devil in Confessional</title>
 	</head>
-	<body>
-	<div id="album info">
+	<body style= "background-color: #f4f7fc;">
+	<div id="albumInfo" class="art">
 		<center>
 			<img src="act5Cover.jpg" alt="Unable to display album cover."/>
 			<p>
 				<h2>Act V: Hymns with the Devil in Confessional</h2><br>
 				<a href="http://thedearhunter.com">The Dear Hunter</a><br>					September 9, 2016
 			</p>
-			<hr>
-			<h3>Band Members and Producers</h3>			
+			<hr>					
 		</center>
 	</div>
-	<div id="members">
-		<ul>
-			<li>Casey Crescenzo - Vocals, Guitar, Piano</li>
-			<li>Nick Crescenzo - Drums, Back up Vocals</li>
-			<li>Maxwell Tousseau - Guitar, Back up Vocals</li>
-			<li>Nick Sollecito - Guitar, Piano, Back up Vocals</li>
-			<li>Robert Parr - Bass, Back up Vocals</li>
-			<li>Gavin Castleton - Guitar, Piano, Back up Vocals</li>
-			<li>Produced by Casey Crescenzo</li>
-		</ul>
+	<div id="members" style= "font-family: 'Helvetica', 'Arial'; font-size: 10pt; text-align: center;">
+		<center>
+			<h3>Band Members and Producers</h3>	
+		</center>
+		<table align="center">
+			<tr>
+				<td>
+					<ul>
+						<li>Casey Crescenzo - Vocals, Guitar, Piano</li>
+						<li>Nick Crescenzo - Drums, Back up Vocals</li>
+						<li>Maxwell Tousseau - Guitar, Back up Vocals</li>
+						<li>Nick Sollecito - Guitar, Piano, Back up Vocals</li>
+						<li>Robert Parr - Bass, Back up Vocals</li>
+						<li>Gavin Castleton - Guitar, Piano, Back up Vocals</li>
+						<li>Produced by Casey Crescenzo</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
 	</div>
-	<div id="track listing">
-		<table border="1" width="100%">
+	<div class="tables">			
+		<table border="1" width="100%" id="trackListing" align="center">
 			<caption>Tracks</caption>
-			<tr bgcolor="grey" font-weight="bold">
+			<tr style = "background: #70a9bc; color: #f4f7fc;" >
 				<th>Track #</th>
 				<th>Track Title</th>
 				<th>Track Length</th>
@@ -107,8 +137,8 @@
 				<td>15</td>
 				<td>A Beginning</td>
 				<td>6:19</td>
-			</tr>
-		</table>
+			</tr>			
+		</table>		
 	</body>
 </html>
 		
