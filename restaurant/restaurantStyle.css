@@ -1,6 +1,7 @@
 #banner{	
 	text-align: center;
-	font-family: 'Sans-Serif', 'Helvetica';		
+	font-family: 'Sans-Serif', 'Helvetica';	
+	background-color: #f79711	
 }
 #linkTable{
 	border: 0pt;	
@@ -11,4 +12,13 @@
 }
 a {
 	color: black;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	font-weight: bold;
+}
+a:active{
+	text-decoration: none;
 }
