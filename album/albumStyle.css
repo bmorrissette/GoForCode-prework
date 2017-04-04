@@ -10,7 +10,9 @@
 	text-align: center;
 	width: 90%;
 	margin: 0 auto;
-	background: #2b2e35;	
+	background: #2b2e35;
+	padding-bottom: 20pt;
+	padding-top: 20pt;
 }
 caption{
 	color: white;
