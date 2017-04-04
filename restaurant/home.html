@@ -2,14 +2,22 @@
 <html>
 	<head>
 		<title>Paul's Pasta Palace</title>
+		<link href="restaurantStyle.css"
+			rel="stylesheet"
+			type="text/css" />
+		<style>
+			#description{
+				width: 400;
+			}
+		</style>
 	</head>
 	<body>
-		<div id="banner" align="center">		
+		<div id="banner">		
 			<h1>Paul's Pasta Palace</h1>
 			<hr/>
 		</div>
 		<div id="links">
-			<table border="0" cellpadding="10">
+			<table id="linkTable">
 				<tr>
 					<td><a href="home.html">Home</a></td>					
 					<td><a href="menu.html">Menu</a></td>					
@@ -20,10 +28,10 @@
 		</div>
 		<div id="info" align="center">
 			<p>
-				<img src="pasta.jpg" width="400"/>
+				<img src="pasta.jpg" style="width:400; border: 1px solid red; padding 1px;"/>
 			</p>
 			<p>
-				<table width="400">
+				<table id="description">
 					<tr>
 						<td><b>About Us</b><br/>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue tortor sed molestie gravida. Nunc at eros et nunc fermentum bibendum. 
@@ -33,7 +41,7 @@
 				</table>
 			</p>
 		</div>
-		<div id="footer" align="center">
+		<div id="footer">
 			<hr/>
 			<p>
 				<h3>12 Cherokee Drive, Epping NH, 03024</h3>
