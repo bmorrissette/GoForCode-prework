@@ -7,6 +7,8 @@
 			type="text/css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<style>
 			#description{
 				width: 400;	
@@ -16,6 +18,11 @@
 				background-color: #f79711;
 				padding: 10pt;
 			}
+			.carousel-inner > .item > img,
+  			.carousel-inner > .item > a > img {
+      			height:401pt;
+      			margin: auto;
+  			}
 		</style>
 	</head>
 	<body>
@@ -29,10 +36,28 @@
 						<li role="presentation"><a href="menu.html">Menu</a></li>					
 						<li role="presentation"><a href="contact.html">Contact Us</a></li>
 					</ul>				
-			</div>			
-			<div class="jumbotron col-lg-12" id="ticker" >
-				Visit our new location opening in Portsmouth this summer!
-			</div>			
+			</div>
+			<div class="jumbotron col-lg-12 " id="ticker" >
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">					
+					<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>						
+					</ol>
+					<div class="carousel-inner" role="listbox">						
+						<div class="item active">							
+								Visti our new location opening in Portsmouth this summer!							
+						</div>				
+						<div class="item">							
+								With the warm weather comes our new drink menu! Stop by to see!	
+						</div>						
+						<div class="item">							
+								The Drink of the Month is here! Try our SG special Brew						
+						</div>  
+					</div>					
+				</div>				
+			</div>
 			<div id="info" align="center" class="col-xs-12">
 				<div class="col-lg-12">			
 					<p>
